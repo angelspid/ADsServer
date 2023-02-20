@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ADsWarehouse/1.0.0": {
+        "dependencies": {
+          "SuperSimpleTcp": "3.0.7"
+        },
+        "runtime": {
+          "ADsWarehouse.dll": {}
+        }
+      },
+      "SuperSimpleTcp/3.0.7": {
+        "runtime": {
+          "SuperSimpleTcp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ADsWarehouse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperSimpleTcp/3.0.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

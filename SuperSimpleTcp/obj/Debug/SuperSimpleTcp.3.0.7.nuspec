@@ -18,9 +18,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SuperSimpleTcp.dll" target="lib\net6.0\SuperSimpleTcp.dll" />
-    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SimpleTcp.xml" target="lib\net6.0\SimpleTcp.xml" />
-    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\assets\icon.png" target="icon.png" />
-    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\LICENSE.md" target="LICENSE.md" />
+    <file src="C:\Users\adilb\Desktop\ADsServer\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SuperSimpleTcp.dll" target="lib\net6.0\SuperSimpleTcp.dll" />
+    <file src="C:\Users\adilb\Desktop\ADsServer\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SimpleTcp.xml" target="lib\net6.0\SimpleTcp.xml" />
+    <file src="C:\Users\adilb\Desktop\ADsServer\ADsServer\SuperSimpleTcp\assets\icon.png" target="icon.png" />
+    <file src="C:\Users\adilb\Desktop\ADsServer\ADsServer\SuperSimpleTcp\LICENSE.md" target="LICENSE.md" />
   </files>
 </package>

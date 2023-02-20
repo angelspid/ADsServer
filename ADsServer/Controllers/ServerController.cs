@@ -1,4 +1,4 @@
-﻿using MySqlX.XDevAPI;
+﻿using ADsServer.Classes;
 using SuperSimpleTcp;
 using System;
 using System.Collections.Generic;
@@ -15,12 +15,12 @@ using System.Threading.Tasks;
 using System.Windows;
 using ZstdNet;
 
-namespace ADsServer.Classes
+namespace ADsServer.Controllers
 {
-    internal class Server : BaseViewModel
+    internal class ServerController : BaseViewModel
     {
         private BytesConvert bytesConvert;
-        private MySql MySql;
+        private Classes.MySql MySql;
         private SimpleTcpServer _Server;
         private string _isRunning;
         private string _isConnected;
@@ -62,7 +62,7 @@ namespace ADsServer.Classes
             get { return _port; }
             set { SetProperty(ref _port, value); }
         }
-        public Server()
+        public ServerController()
         {
             IsRunning = "Stoped";
             IsConnected = "Connected";
@@ -103,16 +103,16 @@ namespace ADsServer.Classes
                 Client? client = GetClientById(e.IpPort);
                 if (client == null)
                     Clients.Add(new Client(e.IpPort));
-                else                
-                    client.Update(e.IpPort);               
+                else
+                    client.Update(e.IpPort);
             });
-        
+
         }
 
         private void ClientDisconnected(object sender, ConnectionEventArgs e)
         {
             Client? client = GetClientById(e.IpPort);
-            if (client != null) 
+            if (client != null)
                 client.IsConnected = false;
         }
         /// <summary>
@@ -123,22 +123,22 @@ namespace ADsServer.Classes
         private void DataReceived(object sender, DataReceivedEventArgs e)
         {
             Client? client = GetClientById(e.IpPort);
-            if(client != null)
+            if (client != null)
             {
                 client.Send();
                 object[] obj = bytesConvert.FromByteArray<object[]>(e.Data.Array);
                 if (obj != null)
-                    if (obj[0].GetType() == typeof(String) && obj.Length > 0)
+                    if (obj[0].GetType() == typeof(string) && obj.Length > 0)
                         CheckQuery(client, obj);
             }
-          
+
         }
         /// <summary>
         /// Data Send Event.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private  void DataSent(object sender, DataSentEventArgs e)
+        private void DataSent(object sender, DataSentEventArgs e)
         {
             //Client client = Clients.Where<Client>(x => x.id == e.IpPort).FirstOrDefault();    
         }
@@ -167,7 +167,7 @@ namespace ADsServer.Classes
                     Application.Current.Dispatcher.Invoke(() =>
                     {
                         client.Users.Add(new User("angelspid"));
-                    });     
+                    });
                     Send(client.Id, ParseToBytes("OK"));
                     break;
                 case "stop":
@@ -187,7 +187,7 @@ namespace ADsServer.Classes
         /// <returns></returns>
         private Client? GetClientById(string id)
         {
-            return Clients.Where<Client>(x => x.Id == id).FirstOrDefault();
+            return Clients.Where(x => x.Id == id).FirstOrDefault();
         }
         /// <summary>
         /// Convert & Compress bytes array
@@ -203,7 +203,7 @@ namespace ADsServer.Classes
         /// </summary>
         /// <param name="ipPort">IpAddress:Port</param>
         /// <param name="bytes">Array bytes to send</param>
-        private void Send(string ipPort,byte[] bytes)
+        private void Send(string ipPort, byte[] bytes)
         {
 
             if (bytes != null && bytes.Length != 0) _Server.Send(ipPort, bytes);
@@ -215,7 +215,7 @@ namespace ADsServer.Classes
         /// <param name="bytes">Array bytes to send</param>
         private void SendAsync(string ipAddress, byte[] bytes)
         {
-            if (bytes != null && bytes.Length != 0) _Server.SendAsync( ipAddress, bytes).Wait();
+            if (bytes != null && bytes.Length != 0) _Server.SendAsync(ipAddress, bytes).Wait();
         }
         /// <summary>
         /// Remove client

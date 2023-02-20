@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {}
+    "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {
+    "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {
       "version": "3.0.7",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj",
+        "projectUniqueName": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj",
         "projectName": "SuperSimpleTcp",
-        "projectPath": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj",
-        "packagesPath": "C:\\Users\\dilba001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\obj\\",
+        "projectPath": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj",
+        "packagesPath": "C:\\Users\\adilb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dilba001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adilb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

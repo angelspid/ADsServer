@@ -1,4 +1,4 @@
-﻿using ADsServer.Classes;
+﻿using ADsServer.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace ADsServer
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new Server();
+            DataContext = new ServerController();
         }
 
 

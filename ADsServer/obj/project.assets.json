@@ -1547,23 +1547,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dilba001\\.nuget\\packages\\": {},
+    "C:\\Users\\adilb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\ADsServer\\ADsServer.csproj",
+      "projectUniqueName": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\ADsServer\\ADsServer.csproj",
       "projectName": "ADsServer",
-      "projectPath": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\ADsServer\\ADsServer.csproj",
-      "packagesPath": "C:\\Users\\dilba001\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\ADsServer\\obj\\",
+      "projectPath": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\ADsServer\\ADsServer.csproj",
+      "packagesPath": "C:\\Users\\adilb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\ADsServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dilba001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adilb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1579,8 +1579,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {
-              "projectPath": "C:\\Users\\dilba001\\source\\repos\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj"
+            "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj": {
+              "projectPath": "C:\\Users\\adilb\\Desktop\\ADsServer\\ADsServer\\SuperSimpleTcp\\SuperSimpleTcp.csproj"
             }
           }
         }
@@ -1619,7 +1619,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
