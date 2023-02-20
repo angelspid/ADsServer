@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SuperSimpleTcp</id>
+    <version>3.0.7</version>
+    <authors>Joel Christner</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/jchristn/supersimpletcp</projectUrl>
+    <description>Simple wrapper for TCP client and server in C# with SSL support</description>
+    <releaseNotes>Fix for PollSocket method, thank you @zllvm @Energiz0r @Espen-Kalhagen-Element-Logic</releaseNotes>
+    <copyright>(c)2023 Joel Christner</copyright>
+    <tags>tcp messaging socket message sockets api rpc</tags>
+    <repository type="Github" url="https://github.com/jchristn/supersimpletcp" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SuperSimpleTcp.dll" target="lib\net6.0\SuperSimpleTcp.dll" />
+    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\bin\Debug\net6.0\SimpleTcp.xml" target="lib\net6.0\SimpleTcp.xml" />
+    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\assets\icon.png" target="icon.png" />
+    <file src="C:\Users\dilba001\source\repos\ADsServer\SuperSimpleTcp\LICENSE.md" target="LICENSE.md" />
+  </files>
+</package>

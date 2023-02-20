@@ -1,0 +1,11 @@
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\bin\Debug\net48\assets\icon.ico
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\bin\Debug\net48\assets\icon.png
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\bin\Debug\net48\SuperSimpleTcp.dll
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\bin\Debug\net48\SuperSimpleTcp.pdb
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.csproj.AssemblyReference.cache
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.AssemblyInfoInputs.cache
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.AssemblyInfo.cs
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.csproj.CoreCompileInputs.cache
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.dll
+C:\Users\dilba001\Desktop\SuperSimpleTcp-master\src\SuperSimpleTcp\obj\Debug\net48\SuperSimpleTcp.pdb

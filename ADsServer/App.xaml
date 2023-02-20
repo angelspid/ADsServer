@@ -1,0 +1,11 @@
+﻿<Application x:Class="ADsServer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ADsServer"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <FontFamily x:Key="Symbols">pack://application:,,,/Fonts/#FluentSystemIcons-Regular</FontFamily>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
